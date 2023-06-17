@@ -104,3 +104,9 @@ nav #line {
     }
 
 }
+
+@media only screen and (max-width: 780px){
+    #landing-page h1{
+        font-size: 35px;
+    }
+}
