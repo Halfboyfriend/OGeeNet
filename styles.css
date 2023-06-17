@@ -106,5 +106,8 @@ h1{
     #domain-search button{
         width: 35px;
     }
+    .lg-extent{
+        border: none;
+    }
 
 }
