@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 
+
 }
 
 body {
     background-image: linear-gradient(to left, rgb(17, 17, 168) , rgb(0, 0, 0));
- 
     padding: 0 100px;
     color: white;
 }
@@ -21,7 +21,6 @@ a:hover{
 .navbar-brand {
     font-size: 40px;
     font-weight: 900;
-
 }
 
 #nav-btn {
@@ -45,24 +44,26 @@ a:hover{
 
 #landing-page{
    text-align: center;
-   width: 800px;
+   max-width: 800px;
    position: relative;
    top: 70px;
 }
 
 h1{
-    font-size: 64px;
+    font-size: 54px;
     font-family: 'Montserrat';
     font-weight: 900;
 
 }
 
 #landing-page p{
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
 #domain-search{
+    margin: auto;
+    width: 640px;
     border: 1px solid green;
     border-radius: 10px;
     padding: 15px;
@@ -71,7 +72,7 @@ h1{
 }
 
 #domain-search input{
-    width: 670px;
+    width: 540px;
     background: #FDFDFD;
     padding: 5px;
     border: 1px solid #FDFDFD;
@@ -82,4 +83,25 @@ h1{
     border: 1px solid #FDFDFD;
     border-radius: 10px;
     width: 50px;
+}
+
+
+@media only screen and (max-width: 780px) {
+    h1{
+        font-size: 35px;
+    }
+    #landing-page p {
+        font-size: 15px;
+    }
+    #domain-search{
+        width: 500px;
+        margin: auto;
+    }
+    #domain-search input {
+        width: 400px;
+    }
+    #domain-search button{
+        width: 35px;
+    }
+
 }
