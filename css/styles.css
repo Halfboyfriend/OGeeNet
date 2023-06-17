@@ -121,6 +121,10 @@ footer span p{
     background-color: #fff;
 }
 
+footer h5{
+    font-weight: 600;
+}
+
 
 
 @media only screen and (min-width: 781px) {
@@ -157,5 +161,8 @@ footer span p{
 @media only screen and (max-width: 780px){
     #landing-page h1{
         font-size: 35px;
+    }
+    footer{
+        text-align: center;
     }
 }
