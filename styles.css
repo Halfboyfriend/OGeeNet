@@ -87,6 +87,9 @@ h1{
 
 
 @media only screen and (max-width: 780px) {
+    body{
+        padding: 0;
+    }
     h1{
         font-size: 35px;
     }
@@ -94,11 +97,11 @@ h1{
         font-size: 15px;
     }
     #domain-search{
-        width: 500px;
+        max-width: 500px;
         margin: auto;
     }
     #domain-search input {
-        width: 400px;
+        width: 420px;
     }
     #domain-search button{
         width: 35px;
