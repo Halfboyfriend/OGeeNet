@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #121212;
     color: white;
 }
 
@@ -21,7 +21,6 @@ nav {
     margin-top: 10px;
 }
 .brand {
-    
     font-size: 35px;
     font-weight: 900;
 }
@@ -82,10 +81,50 @@ nav #line {
 #landing-page p{
     font-size: 14px;
 }
+
+#page-card{
+    color: #000;
+    margin-top: 50px;
+}
+#page-card h4{
+    color: #fff;
+}
+
+#page-card li{
+    font-size:10px;
+}
+
+
+
+footer{
+    font-family: 'Montserrat';
+    background-color: #000000;
+    padding: 60px 20px;
+}
+
+
+footer li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+footer a {
+    font-size: 12px;
+}
+footer i{
+    margin-right: 10px;
+}
+footer span p{
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+
 @media only screen and (min-width: 781px) {
-    body{
-        padding: 0 100px;
-    }
+  
 
     #p-line {
         margin: auto;
@@ -102,6 +141,13 @@ nav #line {
         background-color: #fff;
         text-align: center;
     }
+
+
+    footer #footer-brand{
+        margin-top: 100px;
+        text-align: center;
+    }
+    
 
 }
 
