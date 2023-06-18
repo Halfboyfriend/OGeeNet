@@ -210,4 +210,8 @@ footer h5{
     footer{
         text-align: center;
     }
+    .brand {
+        font-size: 25px;
+        font-weight: 900;
+    }
 }
