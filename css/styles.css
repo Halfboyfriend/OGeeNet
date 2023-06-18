@@ -32,6 +32,23 @@ nav #line {
 
 }
 
+.modal-content{
+    background: linear-gradient(180deg, #55C8ED 0%, #16155D 78.12%, #063E88 100%);
+    padding: 30px;
+
+}
+.modal-body {
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-body a{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #063E85;
+}
+
 #nav-btn {
     padding: 8px 50px;
     background-color: #063E85;
@@ -95,11 +112,29 @@ nav #line {
 }
 
 
+#join-board{
+    max-width: 800px;
+    background-color: #063E85;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+}
+
+#join-board p{
+    
+    font-size: 14px;
+    line-height: 2em;
+}
+
+
+
 
 footer{
     font-family: 'Montserrat';
     background-color: #000000;
-    padding: 60px 20px;
+    padding: 60px 20px 20px 0;
 }
 
 
@@ -123,6 +158,13 @@ footer span p{
 
 footer h5{
     font-weight: 600;
+}
+#footer-right{
+    margin-left: 20px;
+}
+#footer-right #f-l{
+    float: right;
+    margin-top: -40px;
 }
 
 
