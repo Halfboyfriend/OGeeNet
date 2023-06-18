@@ -50,7 +50,7 @@ nav #line {
 }
 
 #nav-btn {
-    padding: 8px 50px;
+    padding: 8px 30px;
     background-color: #063E85;
     color: #fff;
     font-size: 13px;
@@ -172,6 +172,9 @@ footer h5{
 @media only screen and (min-width: 781px) {
     header{
         padding: 0 100px;
+    }
+    #nav-btn {
+        padding: 8px 50px;
     }
   
 
