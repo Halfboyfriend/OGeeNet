@@ -19,7 +19,10 @@ a:hover{
 }
 nav {
     margin-top: 10px;
+   
 }
+
+
 .brand {
     font-size: 35px;
     font-weight: 900;
@@ -28,19 +31,23 @@ nav #line {
     width: 300px;
     height: 5px;
     background-color: #fff;
-    
-
 }
 
+
+
 .modal-content{
-    background: linear-gradient(180deg, #55C8ED 0%, #16155D 78.12%, #063E88 100%);
+    background-image: linear-gradient(180deg, #55C8ED 0%, #16155D 78.12%, #063E88 100%);
     padding: 30px;
 
 }
+
+
 .modal-body {
     text-align: center;
     margin-top: 20px;
 }
+
+
 .modal-body a{
     border: 1px solid #fff;
     border-radius: 5px;
@@ -48,6 +55,8 @@ nav #line {
     margin-bottom: 20px;
     background-color: #063E85;
 }
+
+
 
 #nav-btn {
     padding: 8px 30px;
@@ -59,6 +68,8 @@ nav #line {
     float: right;
     margin-top: -50px;
 }
+
+
 
 #p-line {
     margin: auto;
@@ -76,14 +87,41 @@ nav #line {
     text-align: center;
 }
 
+
+/* img.background {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    max-width: 800px;
+    border-radius: 60px 60px 0 0;
+    -webkit-filter: blur(10px); 
+    filter: blur(10px);
+    } */
+
 #landing-page {
     margin-top: 120px;
     font-family: 'Montserrat';
+    padding: 50px;
+    background-image: url(../images/bgimage.gif);
+    position: relative;
+    left: 0px;
+    z-index: -1;
+    max-width: 800px;
+    border-radius: 60px 60px 0 0;
+    /* -webkit-filter: blur(10px);
+    filter: blur(10px); */
+}
+#landing-page .row{
+    display: block;
+    filter: none;
+    -webkit-filter: none;
+    z-index: 10;
 }
 
 #landing-page a{
     border: 1px solid #fff;
     margin-right: 60px;
+    
 }
 
 #landing-page #sp-text{
@@ -94,6 +132,8 @@ nav #line {
     font-size: 54px;
     font-family: 'Montserrat';
     font-weight: 900;
+  
+
 }
 #landing-page p{
     font-size: 14px;
@@ -102,11 +142,30 @@ nav #line {
 #page-card{
     color: #000;
     margin-top: 50px;
+    
+    
 }
+#page-card .card{
+    border-radius: 0px 0px 60px 60px;
+    background-color: #063E85;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+
 #page-card h4{
     color: #fff;
 }
 
+#page-card .card-body{
+    margin-top: 150px;
+}
+
+#page-card  i{
+    border: 3px solid #fff;
+   border-radius: 10px;
+   padding: 2px;
+}
 #page-card li{
     font-size:10px;
 }
@@ -126,6 +185,35 @@ nav #line {
     
     font-size: 14px;
     line-height: 2em;
+}
+
+#flip-card #float-card{
+    border: 2px solid #063E85;
+    border-radius: 15px;
+    background-color: #063E85;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+#float-card h5{
+
+ font-weight: 600;
+ border: 2px solid #fff;
+ padding: 10px;
+ border-radius: 10px;
+ 
+}
+#float-card h6{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#float-card a{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20px;
 }
 
 
@@ -204,6 +292,9 @@ footer h5{
 }
 
 @media only screen and (max-width: 780px){
+    #landing-page{
+        text-align: center;
+    }
     #landing-page h1{
         font-size: 35px;
     }
