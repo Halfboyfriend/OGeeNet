@@ -187,10 +187,13 @@ nav #line {
 }
 
 #flip-card{
-    width: 450px;
+   
     margin: auto;
 }
 
+#flip-card h4{
+    padding: 0 50px;
+}
 #flip-card #float-card{
     border: 2px solid #000;
     border-radius: 15px;
