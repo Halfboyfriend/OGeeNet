@@ -228,7 +228,8 @@ nav #line {
 }
 
 #float-card p{
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 2em;
 }
 
 
@@ -303,6 +304,28 @@ footer h5{
         text-align: center;
     }
 
+    #flip-card #float-card{
+      
+        z-index: -1;
+        padding: 15px 20px;
+        float: right;
+        width: 400px;
+    }
+    #flip-card #float-card {
+        background: #063E88;
+    }
+    #flip-card .card-bg{
+
+        border-radius: 50px;
+        margin: auto;
+        width: 1000px;
+        background-image: url(../images/bgimage.gif);
+        position: relative;
+        left: 0px;
+        z-index: -1;
+        padding: 10px 50px 25px 50px;
+        margin-top: 200px;
+    }
 
     footer #footer-brand{
         margin-top: 100px;
