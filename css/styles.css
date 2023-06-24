@@ -186,6 +186,11 @@ nav #line {
     line-height: 2em;
 }
 
+#flip-card{
+    width: 450px;
+    margin: auto;
+}
+
 #flip-card #float-card{
     border: 2px solid #000;
     border-radius: 15px;
@@ -199,7 +204,7 @@ nav #line {
 }
 
 #float-card h5{
- font-size: 15px;
+ font-size: 16px;
  font-weight: 600;
  border: 2px solid #fff;
  padding: 10px;
@@ -208,7 +213,7 @@ nav #line {
 }
 #float-card h6{
     font-weight: 600;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 #float-card a{
