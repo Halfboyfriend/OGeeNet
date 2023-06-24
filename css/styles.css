@@ -106,7 +106,6 @@ nav #line {
     position: relative;
     left: 0px;
     z-index: -1;
-    max-width: 800px;
     border-radius: 60px 60px 0 0;
     /* -webkit-filter: blur(10px);
     filter: blur(10px); */
@@ -140,25 +139,21 @@ nav #line {
 }
 
 #page-card{
-    color: #000;
+    color: #fff;
     margin-top: 50px;
-    
-    
+
 }
 #page-card .card{
+    margin: auto;
     border-radius: 0px 0px 60px 60px;
     background-color: #063E85;
-    margin-top: 10px;
-    padding: 30px;
-}
-
-
-#page-card h4{
-    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+    width: 450px;
 }
 
 #page-card .card-body{
-    margin-top: 150px;
+    margin-top: 55px;
 }
 
 #page-card  i{
@@ -222,7 +217,7 @@ nav #line {
 footer{
     font-family: 'Montserrat';
     background-color: #000000;
-    padding: 60px 20px 20px 0;
+    padding: 60px 20px 20px 20px;
 }
 
 
@@ -265,7 +260,13 @@ footer h5{
         padding: 8px 50px;
     }
   
-
+    #page-card .card{
+        margin-right: 20px;
+        padding: 20px;
+    }
+    #page-card .card-body{
+        margin-top: 105px;
+    }
     #p-line {
         margin: auto;
         width: 100px;
@@ -285,7 +286,7 @@ footer h5{
 
     footer #footer-brand{
         margin-top: 100px;
-        text-align: center;
+        
     }
     
 
