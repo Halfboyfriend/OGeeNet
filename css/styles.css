@@ -273,6 +273,58 @@ footer h5{
 
 
 
+/* AGGREGATOR PAGE */
+
+#identity{
+    text-align: center;
+}
+
+#identity #identity-card{
+    text-align: start;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: #063E85;
+    margin-top: 50px;
+}
+#identity #identity-card h6 {
+    float: right;
+    font-size: 15px;
+    font-weight: 800;
+    
+}
+
+
+#identity #identity-card a{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+  
+}
+
+#identity #identity-card p{
+    font-size: 8px;
+    margin-left: 50%;
+}
+#identity #identity-card hr{
+   border-bottom: 2px solid #fff;
+   padding: 0px;
+   margin: 0;
+}
+
+
+#identity #identity-card #connect{
+
+    font-size: 8px;
+    margin-left: 25%;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 781px) {
     header{
         padding: 0 100px;
